@@ -249,6 +249,71 @@
             </div>
         </section>
         {{-- END ABOUT SECTION --}}
+
+
+        {{-- ADVENTAGE SECTION --}}
+        <section class="adventage section-gap" id="adventage">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-2 mb-lg-0">
+                        <h2 class="title">Advantages of Chroma, <span class="primary">Art and Technology
+                                Converge</span></h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">This carefully curated collection represents the epitome of artistic
+                            brilliance, featuring stunning pieces that push the boundaries of creativity and innovation.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="card-icon" style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-1.svg') }}" class="img-fluid"
+                                    alt="Adventage Image" width="26">
+                            </div>
+                            <h6 style="margin-bottom: 6px;">Unlimited Creative Possibilities</h6>
+                            <p class="paragraph-small">With Chroma, artists have access to a vast array of digital
+                                tools, brushes, and effects.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card-default">
+                            <div class="card-icon" style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-2.svg') }}" class="img-fluid"
+                                    alt="Adventage Image" width="26">
+                            </div>
+                            <h6 style="margin-bottom: 6px;">Seamless Workflow Integration</h6>
+                            <p class="paragraph-small">Chroma offers a seamless workflow
+                                experience, allowing artists to easily import.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                        <div class="card-default">
+                            <div class="card-icon" style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-3.svg') }}" class="img-fluid"
+                                    alt="Adventage Image" width="26">
+                            </div>
+                            <h6 style="margin-bottom: 6px;">Community and Collaboration</h6>
+                            <p class="paragraph-small">Chroma fosters a vibrant community of digital artists,
+                                opportunities for collaboration.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card-default">
+                            <div class="card-icon" style="margin-bottom: 14px;">
+                                <img src="{{ asset('assets/img/adventage/adventage-4.svg') }}" class="img-fluid"
+                                    alt="Adventage Image" width="26">
+                            </div>
+                            <h6 style="margin-bottom: 6px;">Showcase and Exposure</h6>
+                            <p class="paragraph-small">Chroma offers a dedicated space for artists to showcase their
+                                work to a global audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END ADVENTAGE SECTION --}}
     </main>
 
 

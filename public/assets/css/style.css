@@ -152,6 +152,14 @@ h5 {
     border-radius: 3px;
 }
 
+.card-icon {
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgba(var(--light-secondary-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    width: fit-content;
+}
+
 .card-link {
     color: rgba(var(--primary-color), 1);
     font-size: 0.875rem;
