@@ -627,6 +627,154 @@
         </section>
         {{-- END TESTIMONI SECTION --}}
 
+
+        {{-- FAQ SECTION --}}
+        <section class="faq section-gap" id="faq" style="padding-top: 72px !important;">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-2 mb-lg-0">
+                        <h2 class="title">Unlock Your <span class="primary">Curiosity</span>, Frequently
+                            Asked <span class="primary">Questions</span> about <span class="primary">Chroma</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Our Artist Pricing section showcases a range of options designed to
+                            accommodate diverse budgets and preferences.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <h6>How do I get started with digital art on Chroma?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">Our platform offers a user-friendly interface
+                                            and a variety of tools to help you begin your digital art journey. Simply
+                                            create an account, explore our features, and start unleashing your
+                                            creativity!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <h6>Can I use Chroma on different devices?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="true" aria-controls="collapseThree">
+                                        <h6>Are there any specific software requirements to use Chroma?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-3 mt-md-0">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <h6>Can I collaborate with other artists on Chroma?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        <h6>How can I showcase and sell my artwork on Chroma?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
+                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true"
+                                        aria-controls="collapseSix">
+                                        <h6>Is my artwork safe and secure on Chroma?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">We prioritize the security and privacy of your
+                                            artwork. Your creations are stored securely on our servers, and you have
+                                            full control over the visibility and sharing options for your artwork.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END FAQ SECTION --}}
+
     </main>
 
 
