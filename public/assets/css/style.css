@@ -137,6 +137,14 @@ h5 {
     height: 100%;
 }
 
+.banner-image-reverse {
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+}
+
+
 .card-default {
     background-color: rgba(var(--light-color), 1);
     padding: 30px;
@@ -191,6 +199,23 @@ h5 {
     color: rgba(var(--dark-color), 0.52);
 }
 /* END SECTION HERO */
+
+
+/* SECTION ABOUT */
+.fact-value {
+    font-size: 3.5rem;
+    color: rgba(var(--primary-color), 1);
+    text-transform: uppercase;
+    font-family: var(--odibee-sans-regular);
+    line-height: 120%;
+}
+
+.fact-caption {
+    color: rgba(var(--dark-color), 1);
+    font-size: 0.875rem;
+    text-transform: capitalize;
+}
+/* END SECTION ABOUT */
 
 
 /* FOOTER */
