@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'odibee-sans-regular';
+    src: url('../font/odibee-sans/OdibeeSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url('../font/urbanist/Urbanist-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url('../font/urbanist/Urbanist-Medium.ttf') format('truetype');
+}
+
+:root {
+    --primary-color: 189, 0, 42;
+    --dark-color: 4, 3, 3;
+    --light-color: 237, 232, 225;
+    --light-secondary-color: 240, 235, 228;
+
+    --odibee-sans-regular: 'odibee-sans-regular', Arial, Helvetica, sans-serif;
+    --urbanist-regular: 'urbanist-regular', Arial, Helvetica, sans-serif;
+    --urbanist-medium: 'urbanist-medium', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--urbanist-medium);
+    color: rgba(var(--light-color), 1);
+    transition: 250ms !important;
+}
+
+body {
+    background-color: rgba(var(--light-color), 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+p.paragraph,
+p.paragraph-small {
+    font-size: 1rem;
+    color: rgba(var(--light-color), 0.72);
+}
+
+p.paragraph-small {
+    font-size: 0.938rem;
+}
+
+/* COMPONENT STYLE */
+section.section-gap {
+    margin-top: 122px;
+}
+
+.row.row-gap {
+    margin-bottom: 56px
+}
+
+.headline {
+    line-height: 122%;
+    font-size: 3rem;
+    color: rgba(var(--light-color), 0.52);
+}
+
+.title {
+    color: rgba(var(--light-color), 0.52);
+    font-size: 2.5rem;
+    line-height: 122%;
+}
+
+h6 {
+    color: rgba(var(--light-color), 1);
+}
+/* END COMPONENT STYLE */
+
+
+/* FOOTER */
+.footer {
+    padding-top: 122px;
+    margin-top: 122px;
+}
+
+.footer h6 {
+    color: rgba(var(--light-color), 1);
+}
+
+.footer .paragraph-small {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.72);
+    text-decoration: none;
+}
+
+.footer a.paragraph-small:hover {
+    color: rgba(var(--light-color), 1);
+}
+
+.sosmed-icon {
+    width: 44px;
+    height: 44px;
+    background-color: #1F1E24;
+    border-radius: 6px;
+}
+
+.sosmed-icon:hover {
+    background-color: #24232A;
+}
+
+.copyright {
+    padding: 22px 0 !important;
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+}
+
+.copyright p {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.32);
+    font-family: var(--urbanist-regular) !important;
+}
+/* END FOOTER */
+
+
+/* BREAKPOINT XL */
+@media (max-width: 1399.98px) {
+}
+/* END BREAKPOINT XL */
+
+
+/* BREAKPOINT LG */
+@media (max-width: 1199.98px) {
+}
+/* END BREAKPOINT LG */
+
+
+/* BREAKPOINT MD */
+@media (max-width: 991.98px) {
+}
+/* END BREAKPOINT MD */
+
+
+/* BREAKPOINT SM */
+@media (max-width: 767.98px) {
+}
+/* END BREAKPOINT MD */
