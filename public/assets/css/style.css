@@ -364,23 +364,42 @@ h5 {
     border-top: 1px solid rgba(var(--dark-color), 0.12);
 }
 
-.accordion-button::after {
-    width: 12px;
-    height: 12px;
+.accordion-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    background-color: rgba(var(--light-secondary-color), 1);
     background-image: url('../img/icon/arrow-down.svg');
-    background-size: cover;
-    background-position: center;
+    background-size: 10px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
-.accordion-button:not(.collapsed)::after {
-    width: 12px;
-    height: 12px;
+/* .accordion-button:not(.collapsed)::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    background-color: rgba(var(--light-secondary-color), 1);
     background-image: url('../img/icon/arrow-top.svg');
-    background-size: cover;
-    background-position: center;
+    background-size: 10px;
     background-repeat: no-repeat;
-    background-image: #242329;
+    background-position: center;
+} */
+
+.accordion-button::after {
+    display: none;
 }
 /* END SECTION FAQ */
 
