@@ -104,12 +104,17 @@ h5 {
     text-decoration: none;
     padding: 14px 26px;
     background-color: rgba(var(--primary-color), 1);
-    border: none;
+    border: 1px solid rgba(var(--primary-color), 1);
     border-radius: 2px;
     font-size: 1.063rem;
     font-family: var(--odibee-sans-regular);
     color: rgba(var(--light-color), 1);
     text-transform: uppercase;
+}
+
+.button-default:hover {
+    background-color: transparent;
+    color: rgba(var(--primary-color), 1);
 }
 
 .button-secondary {
@@ -380,46 +385,57 @@ h5 {
 /* END SECTION FAQ */
 
 
+/* COMPONENT CTA */
+.cta {
+    background-color: rgba(var(--light-secondary-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    border-radius: 6px;
+    padding: 72px 0;
+    margin-top: 72px;
+}
+/* END COMPONENT CTA */
+
+
 /* FOOTER */
 .footer {
+    background-color: rgba(var(--light-color), 1);
     padding-top: 122px;
-    margin-top: 122px;
 }
 
 .footer h6 {
-    color: rgba(var(--light-color), 1);
+    color: rgba(var(--dark-color), 1);
 }
 
 .footer .paragraph-small {
     font-size: 0.913rem;
-    color: rgba(var(--light-color), 0.72);
+    color: rgba(var(--dark-color), 0.72);
     text-decoration: none;
 }
 
 .footer a.paragraph-small:hover {
-    color: rgba(var(--light-color), 1);
+    color: rgba(var(--dark-color), 1);
 }
 
 .sosmed-icon {
-    width: 44px;
-    height: 44px;
-    background-color: #1F1E24;
-    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--light-secondary-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    border-radius: 4px;
 }
 
 .sosmed-icon:hover {
-    background-color: #24232A;
+    background-color: rgba(var(--light-color), 1);
 }
 
 .copyright {
     padding: 22px 0 !important;
-    border-top: 1px solid rgba(var(--light-color), 0.12);
+    border-top: 1px solid rgba(var(--dark-color), 0.12);
 }
 
 .copyright p {
     font-size: 0.875rem;
-    color: rgba(var(--light-color), 0.32);
-    font-family: var(--urbanist-regular) !important;
+    color: rgba(var(--dark-color), 0.32);
 }
 /* END FOOTER */
 
@@ -454,10 +470,19 @@ h5 {
 
 /* BREAKPOINT MD */
 @media (max-width: 991.98px) {
-    .hero,
     .about,
     .testimoni {
         height: fit-content;
+        padding: 72px 0 !important;
+    }
+
+    .hero {
+        height: fit-content;
+        padding-bottom: 72px !important;
+    }
+
+    section.section-gap {
+        padding: 72px 0;
     }
 
     .headline,

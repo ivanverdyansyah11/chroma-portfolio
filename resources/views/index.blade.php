@@ -629,7 +629,7 @@
 
 
         {{-- FAQ SECTION --}}
-        <section class="faq section-gap" id="faq" style="padding-top: 72px !important;">
+        <section class="faq section-gap" id="faq" style="padding: 72px 0 !important;">
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-2 mb-lg-0">
@@ -775,6 +775,98 @@
         </section>
         {{-- END FAQ SECTION --}}
 
+
+        {{-- CTA --}}
+        <div class="container">
+            <section class="cta">
+                <div class="row justify-content-center">
+                    <div
+                        class="col-md-9 col-lg-8 col-xl-7 col-xxl-6 text-md-center d-md-flex flex-md-column align-items-md-center">
+                        <h2 class="title" style="margin-bottom: 16px;">Join Chroma and Explore the World of Digital
+                            Art
+                        </h2>
+                        <p class="paragraph" style="margin-bottom: 42px;">Are you ready to embark on an extraordinary
+                            artistic journey? Join Chroma today and immerse yourself in the captivating world of digital
+                            art. Our platform provides a vibrant community of talented artists, curated collections of
+                            exceptional artworks.</p>
+                        <div class="wrapper-button d-flex gap-2 align-items-center">
+                            <a href="#" class="button-default">Explore Again</a>
+                            <a href="#" class="button-secondary d-flex align-items-center gap-2">
+                                Buy Ticket
+                                <img src="{{ asset('assets/img/icon/arrow-button-dark.svg') }}" class="img-fluid"
+                                    alt="Arrow Button Dark Icon" width="10">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        {{-- END CTA --}}
+
+
+        {{-- FOOTER --}}
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row" style="margin-bottom: 100px">
+                    <div class="col-6 col-md-3 mb-5 mb-md-0">
+                        <a class="footer-brand d-inline-block" href="#home" style="margin-bottom: 18px;">
+                            <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" class="img-fluid w-100"
+                                alt="Logo Brand">
+                        </a>
+                        <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to Chroma, the ultimate
+                            destination for digital art enthusiasts and creators.</p>
+                        <div class="wrapper-sosmed d-flex gap-2">
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
+                                    alt="Facebook Icon" width="16">
+                            </a>
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
+                                    alt="Whatsapp Icon" width="16">
+                            </a>
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
+                                    alt="Twitter Icon" width="16">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="offset-lg-2 offset-xl-3 col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
+                        <h6 style="margin-bottom: 20px">Quick Links</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#home" class="paragraph-small">Home</a>
+                            <a href="#about" class="paragraph-small">About Us</a>
+                            <a href="#guideline" class="paragraph-small">Our Adventage</a>
+                            <a href="#pricing" class="paragraph-small">Artist Digital</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-2">
+                        <h6 style="margin-bottom: 20px">Adventage Chroma</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#adventage" class="paragraph-small">Unlimited Creative Possibilities</a>
+                            <a href="#adventage" class="paragraph-small">Seamless Workflow Integration</a>
+                            <a href="#adventage" class="paragraph-small">Community and Collaboration</a>
+                            <a href="#adventage" class="paragraph-small">Showcase and Exposure</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h6 style="margin-bottom: 20px">Help & guide</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="" class="paragraph-small">Terms & Conditions</a>
+                            <a href="" class="paragraph-small">Privacy Policy</a>
+                            <a href="" class="paragraph-small">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 copyright text-center">
+                        <p>Copyright © 2023 Chroma. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {{-- END FOOTER --}}
     </main>
 
 
