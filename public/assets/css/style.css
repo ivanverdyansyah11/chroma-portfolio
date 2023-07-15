@@ -136,6 +136,27 @@ h5 {
     width: auto;
     height: 100%;
 }
+
+.card-default {
+    background-color: rgba(var(--light-color), 1);
+    padding: 30px;
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    border-radius: 3px;
+}
+
+.card-link {
+    color: rgba(var(--primary-color), 1);
+    font-size: 0.875rem;
+    border: none;
+    stroke: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.card-link:hover > img {
+    transform: translateX(3px);
+}
 /* END COMPONENT STYLE */
 
 
@@ -224,7 +245,7 @@ h5 {
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2.55rem;
     }
 }
 /* END BREAKPOINT XL */
@@ -238,7 +259,7 @@ h5 {
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2.125rem;
     }
 }
 /* END BREAKPOINT LG */
@@ -256,7 +277,7 @@ h5 {
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 }
 /* END BREAKPOINT MD */
