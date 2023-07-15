@@ -203,11 +203,11 @@
 
 
         {{-- ABOUT SECTION --}}
-        <section class="hero d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0 position-relative"
-            id="hero">
+        <section class="about d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0 position-relative"
+            id="about">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block">
-                <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid w-100 h-100"
-                    alt="hero Banner Image">
+                <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100 h-100"
+                    alt="banner Banner Image">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center">
@@ -252,7 +252,7 @@
 
 
         {{-- ADVENTAGE SECTION --}}
-        <section class="adventage section-gap" id="adventage">
+        <section class="adventage section-gap" id="adventage" style="padding-bottom: 72px !important;">
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-2 mb-lg-0">
@@ -314,6 +314,165 @@
             </div>
         </section>
         {{-- END ADVENTAGE SECTION --}}
+
+
+        {{-- GALLERY SECTION --}}
+        <section class="gallery" id="gallery" style="padding: 72px 0;">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-2 mb-lg-0">
+                        <h2 class="title">Journey through the <span class="primary">Vibrant Gallery on Chroma</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">From mesmerizing digital paintings to captivating illustrations, our
+                            gallery showcases the limitless possibilities of digital creativity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="wrapper-image rounded" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-5.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="wrapper-image rounded" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-6.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                        <div class="wrapper-image rounded" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-7.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="wrapper-image rounded" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-4.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                            <img src="{{ asset('assets/img/gallery/gallery-8.svg') }}" class="img-fluid w-100"
+                                alt="Gallery Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END GALLERY SECTION --}}
+
+
+        {{-- PRICING SECTION --}}
+        <section class="pricing section-gap" id="pricing" style="padding-top: 72px !important;">
+            <div class="container">
+                <div class="row align-items-end justify-content-between row-gap">
+                    <div class="col-lg-6 mb-2 mb-lg-0">
+                        <h2 class="title">Discover <span class="primary">Fair and Transparent Pricing</span> at
+                            Chroma</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="paragraph">Our Artist Pricing section showcases a range of options designed to
+                            accommodate diverse budgets and preferences.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card-default">
+                            <h6>Silver Membership Package</h6>
+                            <h5 style="margin-bottom: 5px;">$9.99/month</h5>
+                            <p class="paragraph-small">Gain access to our exclusive digital art collection with the
+                                Silver Membership Package. Explore a diverse range of artworks from renowned artists,
+                                enjoy unlimited digital art downloads, and receive regular updates on new exhibitions
+                                and featured artists.</p>
+                            <div class="wrapper-benefit d-flex flex-column gap-3" style="margin: 22px 0 28px;">
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Unlimited access to our digital art collection</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Download high-quality digital artworks</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Stay informed about new exhibitions</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Exclusive access to member-only events</p>
+                                </div>
+                            </div>
+                            <button class="button-primary-secondary d-flex justify-content-center">
+                                <div class="wrapper d-flex align-items-center gap-2">
+                                    <h6 class="button-label">Buy Ticket</h6>
+                                    <div class="arrow-button-icon"></div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-default">
+                            <h6>Gold Membership Package</h6>
+                            <h5 style="margin-bottom: 5px;">$19.99/month</h5>
+                            <p class="paragraph-small">Elevate your digital art experience with the Gold Membership
+                                Package. Enjoy all the benefits of the Silver Membership, plus additional perks such as
+                                priority access to new exhibitions, personalized art recommendations.</p>
+                            <div class="wrapper-benefit d-flex flex-column gap-3" style="margin: 22px 0 28px;">
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">All the benefits of the Silver Package</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Priority access to new exhibitions</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Personalized art recommendations</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph">Invitations to exclusive virtual artist talks</p>
+                                </div>
+                            </div>
+                            <button class="button-primary-secondary d-flex justify-content-center">
+                                <div class="wrapper d-flex align-items-center gap-2">
+                                    <h6 class="button-label">Buy Ticket</h6>
+                                    <div class="arrow-button-icon"></div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END PRICING SECTION --}}
+
     </main>
 
 

@@ -130,6 +130,22 @@ h5 {
     opacity: 0.8 !important;
 }
 
+.button-primary-secondary {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 26px;
+    background-color: transparent;
+    border: 1.4px solid rgba(var(--primary-color), 1);
+    border-radius: 2px;
+}
+
+.button-primary-secondary:hover {
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--light-color), 1);
+}
+
 .banner-image {
     top: 0;
     left: 0;
@@ -192,7 +208,9 @@ h5 {
 
 
 /* SECTION HERO */
-.hero {
+.hero,
+.about,
+.testimoni {
     height: 88vh;
 }
 
@@ -224,6 +242,50 @@ h5 {
     text-transform: capitalize;
 }
 /* END SECTION ABOUT */
+
+
+/* SECTION GALLERY */
+.gallery img {
+    border-radius: 3px;
+}
+.wrapper-image {
+    overflow: hidden;
+}
+
+.wrapper-image:hover > img {
+    transform: scale(1.04);
+}
+/* END SECTION GALLERY */
+
+
+/* SECTION PRICING */
+.benefit-label {
+    color: rgba(var(--dark-color), 0.52);
+}
+
+.button-primary-secondary h6 {
+    font-size: 1.063rem;
+    font-family: var(--odibee-sans-regular);
+    color: rgba(var(--primary-color), 1);
+    text-transform: uppercase;
+}
+.button-primary-secondary .arrow-button-icon {
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../img/icon/arrow-button-primary.svg');
+}
+
+.button-primary-secondary:hover h6 {
+    color: rgba(var(--light-color), 1);
+}
+
+.button-primary-secondary:hover .arrow-button-icon {
+    background-image: url('../img/icon/arrow-button-light.svg');
+}
+/* END SECTION PRICING */
 
 
 /* FOOTER */
@@ -300,7 +362,9 @@ h5 {
 
 /* BREAKPOINT MD */
 @media (max-width: 991.98px) {
-    .hero {
+    .hero,
+    .about,
+    .testimoni {
         height: fit-content;
     }
 
