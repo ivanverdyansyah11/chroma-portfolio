@@ -393,7 +393,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card-default">
                             <h6>Silver Membership Package</h6>
                             <h5 style="margin-bottom: 5px;">$9.99/month</h5>
@@ -405,22 +405,22 @@
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Unlimited access to our digital art collection</p>
+                                    <p class="paragraph-small">Unlimited access to our digital art collection</p>
                                 </div>
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Download high-quality digital artworks</p>
+                                    <p class="paragraph-small">Download high-quality digital artworks</p>
                                 </div>
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Stay informed about new exhibitions</p>
+                                    <p class="paragraph-small">Stay informed about new exhibitions</p>
                                 </div>
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Exclusive access to member-only events</p>
+                                    <p class="paragraph-small">Exclusive access to member-only events</p>
                                 </div>
                             </div>
                             <button class="button-primary-secondary d-flex justify-content-center">
@@ -431,7 +431,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                         <div class="card-default">
                             <h6>Gold Membership Package</h6>
                             <h5 style="margin-bottom: 5px;">$19.99/month</h5>
@@ -442,22 +442,59 @@
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">All the benefits of the Silver Package</p>
+                                    <p class="paragraph-small">All the benefits of the Silver Package</p>
                                 </div>
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Priority access to new exhibitions</p>
+                                    <p class="paragraph-small">Priority access to new exhibitions</p>
                                 </div>
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Personalized art recommendations</p>
+                                    <p class="paragraph-small">Personalized art recommendations</p>
                                 </div>
                                 <div class="benefit-item d-flex align-items-center gap-2">
                                     <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
                                         alt="Checklist Benefit Icon" width="22">
-                                    <p class="paragraph">Invitations to exclusive virtual artist talks</p>
+                                    <p class="paragraph-small">Invitations to exclusive virtual artist talks</p>
+                                </div>
+                            </div>
+                            <button class="button-primary-secondary d-flex justify-content-center">
+                                <div class="wrapper d-flex align-items-center gap-2">
+                                    <h6 class="button-label">Buy Ticket</h6>
+                                    <div class="arrow-button-icon"></div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-4 mt-lg-0">
+                        <div class="card-default">
+                            <h6>Platinum Membership Package</h6>
+                            <h5 style="margin-bottom: 5px;">$29.99/month</h5>
+                            <p class="paragraph-small">Immerse yourself in the ultimate digital art experience with
+                                the Platinum Membership Package. In addition to the benefits of the Gold Membership,
+                                you'll enjoy concierge services, virtual gallery tours with curators.</p>
+                            <div class="wrapper-benefit d-flex flex-column gap-3" style="margin: 22px 0 28px;">
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph-small">All the benefits of the Gold Package</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph-small">Dedicated concierge services for personalized</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph-small">Virtual gallery tours led by curators</p>
+                                </div>
+                                <div class="benefit-item d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/img/icon/checklist-icon.svg') }}" class="img-fluid"
+                                        alt="Checklist Benefit Icon" width="22">
+                                    <p class="paragraph-small">Exclusive access to limited-edition artworks</p>
                                 </div>
                             </div>
                             <button class="button-primary-secondary d-flex justify-content-center">

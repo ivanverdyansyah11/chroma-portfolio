@@ -376,6 +376,10 @@ h5 {
     .title {
         font-size: 2.25rem;
     }
+
+    .row.row-gap {
+        margin-bottom: 42px
+    }
 }
 /* END BREAKPOINT MD */
 
