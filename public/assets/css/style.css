@@ -288,6 +288,53 @@ h5 {
 /* END SECTION PRICING */
 
 
+/* SECTION TESTIMONI */
+.testimoni .card-default {
+    background-color: rgba(var(--light-secondary-color), 1);
+}
+
+.testimoni .profile-image {
+    width: fit-content;
+    height: fit-content;
+    padding: 6px;
+    border-radius: 3px;
+    background-color: rgba(var(--light-color), 1);
+    border: 1px solid rgba(var(--dark-color), 0.12);
+}
+
+.testimoni .profile-image img {
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.testimoni .testimoni-name {
+    color: rgba(var(--primary-color), 1);
+}
+
+.testimoni .testimoni-position {
+    color: rgba(var(--dark-color), 1);
+}
+
+.testimoni .swiper-pagination {
+    transform: translateY(42px);
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(var(--dark-color), 0.24) !important;
+    width: 100px !important;
+    height: 8px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 100px !important;
+    background-color: rgba(var(--dark-color), 0.34) !important;
+}
+/* END SECTION TESTIMONI */
+
+
 /* FOOTER */
 .footer {
     padding-top: 122px;

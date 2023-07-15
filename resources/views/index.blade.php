@@ -207,7 +207,7 @@
             id="about">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block">
                 <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100 h-100"
-                    alt="banner Banner Image">
+                    alt="About Banner Image">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center">
@@ -510,6 +510,123 @@
         </section>
         {{-- END PRICING SECTION --}}
 
+
+        {{-- TESTIMONI SECTION --}}
+        <section class="testimoni d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0 position-relative"
+            id="testimoni">
+            <div class="banner-image-reverse position-absolute d-none d-lg-inline-block">
+                <img src="{{ asset('assets/img/banner/testimoni-banner.svg') }}" class="img-fluid w-100 h-100"
+                    alt="Testimoni Banner Image">
+            </div>
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-xxl-7">
+                        <h2 class="title" style="margin-bottom: 16px;">Celebrating Artistic Success, <span
+                                class="primary">Stories of
+                                Artists Thriving on Chroma</span></h2>
+                        <p class="paragraph" style="margin-bottom: 42px;">Delve into the inspiring stories and
+                            experiences shared by artists who
+                            have found their creative haven on Chroma. From discovering new opportunities and
+                            connecting with a vibrant community.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="wrapper position-relative">
+                                    <div class="swiper mySwiper position-relative">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="card-default">
+                                                    <div class="wrapper-profile d-flex align-items-center gap-3">
+                                                        <div class="profile-image">
+                                                            <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                                class="img-fluid w-100" alt="Testimoni Profile Image">
+                                                        </div>
+                                                        <div class="wrapper">
+                                                            <h6 class="testimoni-name">Sofia Torres</h6>
+                                                            <p class="paragraph-small testimoni-position">Digital
+                                                                Artist</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="paragraph-small" style="margin-top: 14px;">“I can't
+                                                        express enough how
+                                                        grateful I am to be part of
+                                                        Chroma. The platform has truly been a game-changer for my
+                                                        artistic career. The
+                                                        supportive community.”</p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card-default">
+                                                    <div class="wrapper-profile d-flex align-items-center gap-3">
+                                                        <div class="profile-image">
+                                                            <img src="{{ asset('assets/img/testimoni/testimoni-2.svg') }}"
+                                                                class="img-fluid w-100" alt="Testimoni Profile Image">
+                                                        </div>
+                                                        <div class="wrapper">
+                                                            <h6 class="testimoni-name">Lucas Rivera</h6>
+                                                            <p class="paragraph-small testimoni-position">Digital
+                                                                Sculptor</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="paragraph-small" style="margin-top: 14px;">“Chroma has
+                                                        been a transformative experience for me as an artist. The
+                                                        platform has not only provided me with a space to showcase my
+                                                        digital artworks.”</p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card-default">
+                                                    <div class="wrapper-profile d-flex align-items-center gap-3">
+                                                        <div class="profile-image">
+                                                            <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                                class="img-fluid w-100" alt="Testimoni Profile Image">
+                                                        </div>
+                                                        <div class="wrapper">
+                                                            <h6 class="testimoni-name">Sofia Torres</h6>
+                                                            <p class="paragraph-small testimoni-position">Digital
+                                                                Artist</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="paragraph-small" style="margin-top: 14px;">“I can't
+                                                        express enough how
+                                                        grateful I am to be part of
+                                                        Chroma. The platform has truly been a game-changer for my
+                                                        artistic career. The
+                                                        supportive community.”</p>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card-default">
+                                                    <div class="wrapper-profile d-flex align-items-center gap-3">
+                                                        <div class="profile-image">
+                                                            <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                                class="img-fluid w-100" alt="Testimoni Profile Image">
+                                                        </div>
+                                                        <div class="wrapper">
+                                                            <h6 class="testimoni-name">Sofia Torres</h6>
+                                                            <p class="paragraph-small testimoni-position">Digital
+                                                                Artist</p>
+                                                        </div>
+                                                    </div>
+                                                    <p class="paragraph-small" style="margin-top: 14px;">“I can't
+                                                        express enough how
+                                                        grateful I am to be part of
+                                                        Chroma. The platform has truly been a game-changer for my
+                                                        artistic career. The
+                                                        supportive community.”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination position-absolute"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- END TESTIMONI SECTION --}}
+
     </main>
 
 
@@ -532,10 +649,6 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
             },
         });
     </script>
