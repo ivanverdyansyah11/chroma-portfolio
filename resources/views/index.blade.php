@@ -865,8 +865,9 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small pt-3">Absolutely! Chroma is designed to be accessible
+                                            across multiple devices, including desktops, laptops, tablets, and even
+                                            smartphones. Create art whenever and wherever inspiration strikes!
                                         </p>
                                     </div>
                                 </div>
@@ -885,8 +886,9 @@
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small pt-3">Chroma is a web-based platform, so there's no
+                                            need to install any additional software. As long as you have a modern web
+                                            browser and a stable internet connection, you're ready to go!
                                         </p>
                                     </div>
                                 </div>
@@ -907,8 +909,10 @@
                                 <div id="collapseFour" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small pt-3">Collaboration is at the heart of Chroma's
+                                            community. You can connect with fellow artists, join group projects, and
+                                            even engage in real-time collaborations to create stunning digital artwork
+                                            together.
                                         </p>
                                     </div>
                                 </div>
@@ -927,8 +931,10 @@
                                 <div id="collapseFive" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but children
-                                            under 6 years old must be accompanied by a paying adult for safety purposes.
+                                        <p class="paragraph-small pt-3">Chroma provides a dedicated gallery space for
+                                            artists to showcase their creations. You can also choose to sell your
+                                            artwork through our integrated marketplace, connecting with art enthusiasts
+                                            and potential buyers.
                                         </p>
                                     </div>
                                 </div>
