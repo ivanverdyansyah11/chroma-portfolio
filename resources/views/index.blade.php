@@ -27,12 +27,13 @@
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="">Home</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">About Us</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">Artist Digital</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="#home">Home</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#category">Categories Art</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#about">About Us</a>
                 </div>
             </div>
-            <a href="#" class="button-secondary d-none d-lg-flex align-items-center gap-2">
+            <a href="https://wa.me/6281234567890" target="_blank"
+                class="button-secondary d-none d-lg-flex align-items-center gap-2">
                 Contact Us
                 <img src="{{ asset('assets/img/icon/arrow-button-dark.svg') }}" class="img-fluid"
                     alt="Arrow Button Dark Icon" width="10">
@@ -69,8 +70,8 @@
                         </div>
                         <div class="wrapper d-flex justify-content-between align-items-end">
                             <div class="wrapper-button d-flex gap-2 align-items-center">
-                                <a href="#" class="button-default">Let’s Explore</a>
-                                <a href="#" class="button-secondary d-flex align-items-center gap-2">
+                                <a href="#about" class="button-default">Let’s Explore</a>
+                                <a href="#gallery" class="button-secondary d-flex align-items-center gap-2">
                                     Our Collection
                                     <img src="{{ asset('assets/img/icon/arrow-button-dark.svg') }}" class="img-fluid"
                                         alt="Arrow Button Dark Icon" width="10">
@@ -982,8 +983,8 @@
                             art. Our platform provides a vibrant community of talented artists, curated collections of
                             exceptional artworks.</p>
                         <div class="wrapper-button d-flex gap-2 align-items-center">
-                            <a href="#" class="button-default">Explore Again</a>
-                            <a href="#" class="button-secondary d-flex align-items-center gap-2">
+                            <a href="#about" class="button-default">Explore Again</a>
+                            <a href="#pricing" class="button-secondary d-flex align-items-center gap-2">
                                 Buy Ticket
                                 <img src="{{ asset('assets/img/icon/arrow-button-dark.svg') }}" class="img-fluid"
                                     alt="Arrow Button Dark Icon" width="10">
@@ -1008,15 +1009,18 @@
                         <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to Chroma, the ultimate
                             destination for digital art enthusiasts and creators.</p>
                         <div class="wrapper-sosmed d-flex gap-2">
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://id-id.facebook.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
                                     alt="Facebook Icon" width="16">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://www.whatsapp.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
                                     alt="Whatsapp Icon" width="16">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://twitter.com/?lang=id" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
                                     alt="Twitter Icon" width="16">
                             </a>
@@ -1028,8 +1032,8 @@
                         <div class="wrapper d-flex flex-column gap-3">
                             <a href="#home" class="paragraph-small">Home</a>
                             <a href="#about" class="paragraph-small">About Us</a>
-                            <a href="#guideline" class="paragraph-small">Our Adventage</a>
-                            <a href="#pricing" class="paragraph-small">Artist Digital</a>
+                            <a href="#adventage" class="paragraph-small">Our Adventage</a>
+                            <a href="#category" class="paragraph-small">Categories Art</a>
                         </div>
                     </div>
                     <div class="col-6 col-md-3 col-xl-2">
@@ -1044,9 +1048,9 @@
                     <div class="col-6 col-md-3 col-lg-2">
                         <h6 style="margin-bottom: 20px">Help & guide</h6>
                         <div class="wrapper d-flex flex-column gap-3">
-                            <a href="" class="paragraph-small">Terms & Conditions</a>
-                            <a href="" class="paragraph-small">Privacy Policy</a>
-                            <a href="" class="paragraph-small">Contact Us</a>
+                            <a href="#" class="paragraph-small">Terms & Conditions</a>
+                            <a href="#" class="paragraph-small">Privacy Policy</a>
+                            <a href="#" class="paragraph-small">Contact Us</a>
                         </div>
                     </div>
                 </div>
