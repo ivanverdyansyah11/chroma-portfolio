@@ -767,42 +767,38 @@
                                                 <div class="card-default">
                                                     <div class="wrapper-profile d-flex align-items-center gap-3">
                                                         <div class="profile-image">
-                                                            <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                            <img src="{{ asset('assets/img/testimoni/testimoni-3.svg') }}"
                                                                 class="img-fluid w-100" alt="Testimoni Profile Image">
                                                         </div>
                                                         <div class="wrapper">
-                                                            <h6 class="testimoni-name">Sofia Torres</h6>
+                                                            <h6 class="testimoni-name">Emily Collins</h6>
                                                             <p class="paragraph-small testimoni-position">Digital
                                                                 Artist</p>
                                                         </div>
                                                     </div>
-                                                    <p class="paragraph-small" style="margin-top: 14px;">“I can't
-                                                        express enough how
-                                                        grateful I am to be part of
-                                                        Chroma. The platform has truly been a game-changer for my
-                                                        artistic career. The
-                                                        supportive community.”</p>
+                                                    <p class="paragraph-small" style="margin-top: 14px;">“Chroma has
+                                                        been a game-changer for my digital art journey. The platform's
+                                                        intuitive interface, vast library of tools, and collaborative
+                                                        features.”</p>
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="card-default">
                                                     <div class="wrapper-profile d-flex align-items-center gap-3">
                                                         <div class="profile-image">
-                                                            <img src="{{ asset('assets/img/testimoni/testimoni-1.svg') }}"
+                                                            <img src="{{ asset('assets/img/testimoni/testimoni-4.svg') }}"
                                                                 class="img-fluid w-100" alt="Testimoni Profile Image">
                                                         </div>
                                                         <div class="wrapper">
-                                                            <h6 class="testimoni-name">Sofia Torres</h6>
-                                                            <p class="paragraph-small testimoni-position">Digital
-                                                                Artist</p>
+                                                            <h6 class="testimoni-name">Alex Ramirez</h6>
+                                                            <p class="paragraph-small testimoni-position">Visual
+                                                                Designer</p>
                                                         </div>
                                                     </div>
                                                     <p class="paragraph-small" style="margin-top: 14px;">“I can't
-                                                        express enough how
-                                                        grateful I am to be part of
-                                                        Chroma. The platform has truly been a game-changer for my
-                                                        artistic career. The
-                                                        supportive community.”</p>
+                                                        imagine my artistic process without Chroma. The seamless
+                                                        integration of digital art tools and the ability to create
+                                                        stunning visual effects.”</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1069,7 +1065,6 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 20,
-            loop: true,
             breakpoints: {
                 640: {
                     slidesPerView: 2,
