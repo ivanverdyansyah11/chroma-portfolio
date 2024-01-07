@@ -822,19 +822,19 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-2 mb-lg-0">
-                        <h2 class="title">Unlock Your <span class="primary">Curiosity</span>, Frequently
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Unlock Your <span class="primary">Curiosity</span>, Frequently
                             Asked <span class="primary">Questions</span> about <span class="primary">Chroma</span>
                         </h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Our Artist Pricing section showcases a range of options designed to
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">Our Artist Pricing section showcases a range of options designed to
                             accommodate diverse budgets and preferences.
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -856,7 +856,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -877,7 +877,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -900,7 +900,7 @@
                     </div>
 
                     <div class="col-md-6 mt-3 mt-md-0">
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -922,7 +922,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -944,7 +944,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="accordionExample" data-aos="zoom-in-up" data-aos-duration="600">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
