@@ -576,18 +576,18 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-2 mb-lg-0">
-                        <h2 class="title">Discover <span class="primary">Fair and Transparent Pricing</span> at
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Discover <span class="primary">Fair and Transparent Pricing</span> at
                             Chroma</h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Our Artist Pricing section showcases a range of options designed to
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">Our Artist Pricing section showcases a range of options designed to
                             accommodate diverse budgets and preferences.
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400">
                             <h6>Silver Membership Package</h6>
                             <h5 style="margin-bottom: 5px;">$9.99/month</h5>
                             <p class="paragraph-small">Gain access to our exclusive digital art collection with the
@@ -625,7 +625,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="300">
                             <h6>Gold Membership Package</h6>
                             <h5 style="margin-bottom: 5px;">$19.99/month</h5>
                             <p class="paragraph-small">Elevate your digital art experience with the Gold Membership
@@ -662,7 +662,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mt-4 mt-lg-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="600">
                             <h6>Platinum Membership Package</h6>
                             <h5 style="margin-bottom: 5px;">$29.99/month</h5>
                             <p class="paragraph-small">Immerse yourself in the ultimate digital art experience with
