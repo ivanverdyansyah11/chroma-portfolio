@@ -709,15 +709,15 @@
             id="testimoni">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block">
                 <img src="{{ asset('assets/img/banner/testimoni-banner.svg') }}" class="img-fluid w-100 h-100"
-                    alt="Testimoni Banner Image">
+                    alt="Testimoni Banner Image" data-aos="fade" data-aos-duration="1400">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-xxl-7">
-                        <h2 class="title" style="margin-bottom: 16px;">Celebrating Artistic Success, <span
+                        <h2 class="title" style="margin-bottom: 16px;" data-aos="fade-right" data-aos-duration="1400">Celebrating Artistic Success, <span
                                 class="primary">Stories of
                                 Artists Thriving on Chroma</span></h2>
-                        <p class="paragraph" style="margin-bottom: 42px;">Delve into the inspiring stories and
+                        <p class="paragraph" style="margin-bottom: 42px;" data-aos="fade-right" data-aos-duration="1400">Delve into the inspiring stories and
                             experiences shared by artists who
                             have found their creative haven on Chroma. From discovering new opportunities and
                             connecting with a vibrant community.</p>
@@ -726,7 +726,7 @@
                                 <div class="wrapper position-relative">
                                     <div class="swiper mySwiper position-relative">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400">
                                                 <div class="card-default">
                                                     <div class="wrapper-profile d-flex align-items-center gap-3">
                                                         <div class="profile-image">
@@ -747,7 +747,7 @@
                                                         supportive community.”</p>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                                 <div class="card-default">
                                                     <div class="wrapper-profile d-flex align-items-center gap-3">
                                                         <div class="profile-image">
@@ -766,7 +766,7 @@
                                                         digital artworks.”</p>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="600">
                                                 <div class="card-default">
                                                     <div class="wrapper-profile d-flex align-items-center gap-3">
                                                         <div class="profile-image">
@@ -785,7 +785,7 @@
                                                         features.”</p>
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
+                                            <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="900">
                                                 <div class="card-default">
                                                     <div class="wrapper-profile d-flex align-items-center gap-3">
                                                         <div class="profile-image">
