@@ -514,11 +514,11 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-2 mb-lg-0">
-                        <h2 class="title">Journey through the <span class="primary">Vibrant Gallery on Chroma</span>
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Journey through the <span class="primary">Vibrant Gallery on Chroma</span>
                         </h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">From mesmerizing digital paintings to captivating illustrations, our
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">From mesmerizing digital paintings to captivating illustrations, our
                             gallery showcases the limitless possibilities of digital creativity.
                         </p>
                     </div>
@@ -526,41 +526,41 @@
 
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="wrapper-image rounded" style="height: max-content;">
+                        <div class="wrapper-image rounded" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600">
                             <img src="{{ asset('assets/img/gallery/gallery-5.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="wrapper-image rounded" style="height: max-content;">
+                        <div class="wrapper-image rounded" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="300">
                             <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="300">
                             <img src="{{ asset('assets/img/gallery/gallery-6.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                        <div class="wrapper-image rounded" style="height: max-content;">
+                        <div class="wrapper-image rounded" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="600">
                             <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="600">
                             <img src="{{ asset('assets/img/gallery/gallery-7.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="wrapper-image rounded" style="height: max-content;">
+                        <div class="wrapper-image rounded" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="900">
                             <img src="{{ asset('assets/img/gallery/gallery-4.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
-                        <div class="wrapper-image rounded mt-4" style="height: max-content;">
+                        <div class="wrapper-image rounded mt-4" style="height: max-content;" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="900">
                             <img src="{{ asset('assets/img/gallery/gallery-8.svg') }}" class="img-fluid w-100"
                                 alt="Gallery Image">
                         </div>
