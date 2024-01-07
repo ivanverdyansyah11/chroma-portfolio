@@ -400,39 +400,39 @@
             id="about">
             <div class="banner-image-reverse position-absolute d-none d-lg-inline-block">
                 <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid w-100 h-100"
-                    alt="About Banner Image">
+                    alt="About Banner Image" data-aos="fade" data-aos-duration="1400">
             </div>
             <div class="container position-relative">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-xxl-7">
-                        <h2 class="title" style="margin-bottom: 16px;">Explore the Infinite Possibilities of <span
+                        <h2 class="title" style="margin-bottom: 16px;" data-aos="fade-right" data-aos-duration="1400">Explore the Infinite Possibilities of <span
                                 class="primary">Chroma's
                                 Digital Art Universe</span></h2>
                         <div class="wrapper-paragraph d-flex flex-column gap-2" style="margin-bottom: 42px;">
-                            <p class="paragraph">Welcome to Chroma, a vibrant digital art destination that celebrates
+                            <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">Welcome to Chroma, a vibrant digital art destination that celebrates
                                 the fusion of art and technology. In our About section, we invite you to embark on a
                                 journey into the realm of digital artistry. Chroma is a haven where colors come alive,
                                 where imagination knows no boundaries, and where artists can unleash their creativity
                                 with cutting-edge digital tools.</p>
-                            <p class="paragraph d-none d-md-inline-block">Discover the rich tapestry of digital art
+                            <p class="paragraph d-none d-md-inline-block" data-aos="fade-right" data-aos-duration="1400">Discover the rich tapestry of digital art
                                 forms, from mesmerizing illustrations and mind-bending animations to immersive virtual
                                 reality experiences. At Chroma, we strive to cultivate an inspiring community that
                                 nurtures artistic growth and pushes the boundaries of creative expression.</p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0" data-aos="zoom-in-up" data-aos-duration="600">
                                 <h4 class="fact-value">168+</h4>
                                 <p class="fact-caption">Total Collection</p>
                             </div>
-                            <div class="col-6 col-md-3 mb-4 mb-md-0">
+                            <div class="col-6 col-md-3 mb-4 mb-md-0" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="200">
                                 <h4 class="fact-value">12+</h4>
                                 <p class="fact-caption">Total Artist Digital</p>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="400">
                                 <h4 class="fact-value">03+</h4>
                                 <p class="fact-caption">Total Branch Places</p>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="600">
                                 <h4 class="fact-value">632+</h4>
                                 <p class="fact-caption">Satisfied customers</p>
                             </div>
