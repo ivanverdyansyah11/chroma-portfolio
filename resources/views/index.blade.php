@@ -95,17 +95,17 @@
             <div class="container">
                 <div class="row align-items-end justify-content-between row-gap">
                     <div class="col-lg-6 mb-2 mb-lg-0">
-                        <h2 class="title">Discover the Boundless <span class="primary">Categories of Digital Art on
+                        <h2 class="title" data-aos="fade-right" data-aos-duration="1400">Discover the Boundless <span class="primary">Categories of Digital Art on
                                 Chroma</span></h2>
                     </div>
                     <div class="col-lg-5">
-                        <p class="paragraph">Dive into digital paintings, mesmerizing 3D creations, thought-provoking
+                        <p class="paragraph" data-aos="fade-left" data-aos-duration="1400">Dive into digital paintings, mesmerizing 3D creations, thought-provoking
                             photography, and more as you explore the boundless possibilities of artistic expression.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Digital Painting</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">This category encompasses artworks
                                 that simulate traditional painting techniques using digital tools and software.</p>
@@ -140,7 +140,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Digital Typography and Lettering</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">Artworks that focus on the design
                                 and arrangement of digital typography and letterforms.</p>
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Digital Drawing</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">Artworks created primarily using
                                 digital drawing techniques, including sketching, line art, and illustrative styles.</p>
@@ -210,7 +210,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Digital Concept Art</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">Artworks created as part of the
                                 concept design process for various media, including video games, movies, and animations.
@@ -247,7 +247,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">3D Modeling and Sculpting</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">This category includes artworks
                                 that are created using 3D modeling and sculpting software.</p>
@@ -282,7 +282,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Digital Animation</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">Artworks that involve the creation
                                 of moving images or sequences using digital techniques.
@@ -318,7 +318,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="card-default">
+                        <div class="card-default" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Digital Photography</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">Digital photographs that have been
                                 digitally enhanced, edited, or manipulated fall under this category.</p>
@@ -353,7 +353,7 @@
                             </div>
                         </div>
 
-                        <div class="card-default mt-4">
+                        <div class="card-default mt-4" data-aos="zoom-in-up" data-aos-duration="600">
                             <h6 style="margin-bottom: 6px;">Generative Art</h6>
                             <p class="paragraph-small" style="margin-bottom: 16px;">Artworks that are created using
                                 algorithms, code, or interactive systems to generate visual output.
